@@ -1,0 +1,28 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "Some big description",
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "homepage": "https://github.com/Julykov/aqa-advanced#readme",
+  "bugs": {
+    "url": "https://github.com/Julykov/aqa-advanced/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julykov/aqa-advanced.git"
+  },
+  "license": "MIT",
+  "author": "Yuliia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update:node": "npm i npm-check-updates && ncu --target minor -u && npm"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
