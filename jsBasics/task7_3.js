@@ -10,35 +10,35 @@ function divide(numerator, denominator) {
 try {
     const result = divide(8, 2)
     console.log(result)
-    } catch (error) {
+} catch (error) {
         console.log("Error: ", error.message)
-    } finally {
+} finally {
         console.log("The work is finished")
-    }
+}
 
 try {
     const result = divide(4,0)
     console.log(result)
-    } catch (error) {
+} catch (error) {
         console.log("Error: ", error.message)
-    } finally {
+} finally {
         console.log("The work is finished")
-    }
+}
 
 try {
     const result = divide(10,"Five")
     console.log(result)
-    } catch (error) {
+} catch (error) {
         console.log("Error: ", error.message)
-    } finally {
+} finally {
         console.log("The work is finished")
-    }
+}
 
 try {
     const result = divide("Ten", 2)
     console.log(result)
-    } catch (error) {
+} catch (error) {
         console.log("Error: ", error.message)
-    } finally {
+} finally {
         console.log("The work is finished")
-    }
+}
