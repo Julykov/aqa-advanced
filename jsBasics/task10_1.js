@@ -14,4 +14,7 @@ const books = [
 ]
 
 const oldest_books_names = Book.booksCount(books)
-console.log(`\nThe list of oldest books: ${oldest_books_names}`)
+console.log(`\nThe list of oldest books: ${oldest_books_names}\n\n`)
+
+const new_ebook_obj = EBook.reformat(book3)
+console.log(new_ebook_obj)

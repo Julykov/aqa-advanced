@@ -2,7 +2,7 @@
 import {Book} from './Book.js'
 
 export class EBook extends Book {
-    constructor(name='Unknown name', author='Unknown author', year=null, format){
+    constructor(name, author, year, format){
         super(name, author, year)
         this.format = format
     }
@@ -12,7 +12,7 @@ export class EBook extends Book {
     }
 
     set format(value) {
-        if (value !== 'PDF' && value != "FB2") {
+        if (value !== 'PDF' && value != "FB2" && value != "****") {
             console.log('The format of the book is incorrect!')
             return
         }
@@ -20,7 +20,8 @@ export class EBook extends Book {
     }
 
     static reformat(obj) {
-        //todo
+        const {name, author, year} = obj
+        return new EBook(name, author, year, '****')
     }
 
 
