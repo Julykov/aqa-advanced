@@ -1,5 +1,5 @@
-function printSomeData(some_data){
-    console.log(some_data)
+function printAfterDelay(text, ms){
+    setTimeout(() => console.log(text), ms);
 }
 
-setTimeout(printSomeData, 4000, 'Hello, world!')
+printAfterDelay('Hello, world!', 2000);
