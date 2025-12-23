@@ -1,5 +1,5 @@
-const firstArray = [1, 2, 3]
-const secondArray = [4, 5, 6]
+const firstArray = [1, 2, 3];
+const secondArray = [4, 5, 6];
 
-const unionArray = firstArray.concat(secondArray)
-console.log(unionArray)
+const unionArray = firstArray.concat(secondArray);
+console.log(unionArray);
